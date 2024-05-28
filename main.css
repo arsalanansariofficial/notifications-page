@@ -1,6 +1,13 @@
 @font-face {
-  font-family: 'Plus Jakarta Sans', sans-serif;
-  src: url('./assets/fonts/PlusJakartaSans.ttf') format(truetype);
+  font-family: 'Cascadia Code', sans-serif;
+  src: url('./assets/fonts/regular.woff2') format(woff2);
+  font-weight: var(--fw-400);
+}
+
+@font-face {
+  font-family: 'Cascadia Code', sans-serif;
+  src: url('./assets/fonts/bold.woff2') format(woff2);
+  font-weight: var(--fw-700);
 }
 
 * {
